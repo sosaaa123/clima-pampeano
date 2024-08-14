@@ -32,7 +32,7 @@ const onLoad = () =>{
 }
 
 
-document.getElementById('')
+
 
 document.getElementById('boton').addEventListener('click', function() {
     const cityName = document.getElementById('ciudad-input').value;
@@ -54,7 +54,7 @@ document.getElementById('boton').addEventListener('click', function() {
         })
         
         
-        .catch(() => {
+        /*.catch(() => {
             alert('Nombre de ciudad no encontrado, pruebe otra vez.');
-        });
+        });*/
 });
