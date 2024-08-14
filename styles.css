@@ -45,8 +45,12 @@ h3{
     background-color: white;
     display: flex;
     flex-direction: column;
+    margin-bottom: 1%;
 }
 
+.container h3{
+    padding-top: 0%;
+}
 
 .container input{
     height: 3rem;
@@ -76,5 +80,9 @@ footer{
     background-color: white;
     margin-top: 1%;
     padding: 1rem;
+}
+
+.info{
+    background-color: #b3b6b7;
 }
 
