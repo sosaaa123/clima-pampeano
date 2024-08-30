@@ -13,20 +13,17 @@
     <link rel="stylesheet" href="styles.css">
     <title>Clima Pampeano</title>
 </head>
-<body onload="onLoad()">
-
-    
-    <header> 
+<body onload="onLoad()"> 
+    <header class="header" > 
         <h1>Clima Pampeano</h1>
-        <hr>
-        <h3>Proyecto 6to 5ta</h3>
+        <div class="container">         
+            <input type="text" id="ciudad-input" placeholder="Ingresa el nombre de la ciudad">
+            <button id="boton">Obtener clima</button>
+        </div>
     </header>
 
     <div>
-        <div class="container">
-            <h3>Busque una ciudad</h3>            <input type="text" id="ciudad-input" placeholder="Ingresa el nombre de la ciudad">
-            <button id="boton">Obtener clima</button>
-        </div>
+
         <hr>
         <div id="weather-data" class="contenido">
             <h3 id="ciudad"></h3>
