@@ -83,6 +83,8 @@ h3{
 .container input:focus{
     outline: none;
     border: none;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .container button{
@@ -100,7 +102,7 @@ h3{
 .container button:hover i{
     color: white;
     font-size: 2rem;
-    transition: 2s;
+    transition: 1s;
 }
 
 .container button i{
@@ -130,13 +132,23 @@ footer{
     background-color: #b3b6b7;
 }
 
+.caja-clima{
+    padding: 1rem 1rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
 
 .caja-clima1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1%;
+    gap: 3%;
+    background-color: #b3b6b7;
+    padding: 1%;
 }
+
+
 
 .caja-clima1 h4{
     font-size: 1rem;
@@ -145,4 +157,14 @@ footer{
 
 .caja-clima div i{
     font-size: 1rem;
+}
+
+.caja-clima p{
+    padding: 1%;
+}
+
+.grid-contenido{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5%;
 }
