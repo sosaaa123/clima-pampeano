@@ -58,7 +58,8 @@ h3{
     padding: 2rem;
     background-color: white;
     display: flex;
-    gap: 5%;
+    align-items: center;
+    gap: 1%;
     margin-bottom: 1%;
     width: 80%;
 }
@@ -69,15 +70,42 @@ h3{
 
 .container input{
     height: 3rem;
-    width: 100%;
-    margin-bottom: 1%;
+    width: 90%;
+    border: none;
     
+}
 
+
+.container input {
+    background: #ccc;
+}
+
+.container input:focus{
+    outline: none;
+    border: none;
 }
 
 .container button{
     height: 3rem;
-    
+    width: 10%;  
+    background-color: white;
+    border: none; 
+}
+
+
+.container button:hover{
+    background-color: #ccc
+}
+
+.container button:hover i{
+    color: white;
+    font-size: 2rem;
+    transition: 2s;
+}
+
+.container button i{
+    color: #75aadb;
+    font-size: 2rem;
 }
 
 hr{
@@ -85,7 +113,7 @@ hr{
 }
 
 .contenido{
-
+    
     padding: 1%;
     background-color: white;
     
@@ -102,3 +130,19 @@ footer{
     background-color: #b3b6b7;
 }
 
+
+.caja-clima1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1%;
+}
+
+.caja-clima1 h4{
+    font-size: 1rem;
+    margin: 0%;
+}
+
+.caja-clima div i{
+    font-size: 1rem;
+}

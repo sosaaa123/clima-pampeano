@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
+    <script src="https://kit.fontawesome.com/981400d190.js" crossorigin="anonymous"></script>
     <link rel="icon" href="logo.png">
-    
     <link rel="stylesheet" href="styles.css">
     <title>Clima Pampeano</title>
 </head>
@@ -20,28 +20,99 @@
         </div>
         
         <div class="container">         
-            <input type="text" id="ciudad-input" placeholder="Ingresa el nombre de la ciudad">
-            <button id="boton">Obtener clima</button>
+            <input type="text" id="ciudad-input" placeholder=" Ingresa el nombre de la ciudad">
+            
+            <button id="boton">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
         </div>
     </header>
 
     <div>
-
         <hr>
         <div id="weather-data" class="contenido">
             <h3 id="ciudad"></h3>
             <hr>
-            <p class="p-clima" id="temperatura" class="info">Temperatura: </p>
-            <p class="p-clima" id="descripcion" class="info">Descripcion: </p>
-            <p class="p-clima" id="temp_min" class="info">Temperatura Minima: </p>
-            <p class="p-clima" id="temp_max" class="info">Temperatura Maxima: </p>
-            <p class="p-clima" id="humedad" class="info">Humedad: </p>
-            <p class="p-clima" id="vientos" class="info">Vientos: </p>
-            <p class="p-clima" id ="sen_termica" class="info">Sensacion Termica: </p>
-            <p class="p-clima" id="presion_atmos" class="info">Presion Atmosferica: </p>
-            <p class="p-clima" id="nubosidad" class="info">Nubosidad: </p>
-            <!--<p class="p-clima" id ="precipitacion" class="info">Precipitaciones </p>-->
-            
+    
+            <div class="caja-clima">
+                <div class="caja-clima1">
+                    <h4>Temperatura</h4>
+                    <div>
+                        <i class="fa-solid fa-temperature-half"></i>
+                    </div>
+                </div>
+                <p class="p-clima" id="temperatura" class="info"></p>
+            </div>
+    
+            <div class="caja-clima">
+                <div class="caja-clima1">
+                    <h4>Temperatura</h4>
+                    <div>
+                        <i class="fa-solid fa-temperature-half"></i>
+                    </div>
+                </div>
+                <p class="p-clima" id="descripcion" class="info">Descripcion: </p>
+            </div>
+    
+            <div class="caja-clima">
+                <div class="caja-clima1">
+                    <h4>Temperatura</h4>
+                    <div>
+                        <i class="fa-solid fa-temperature-half"></i>
+                    </div>
+                </div>
+                <p class="p-clima" id="temp_min" class="info">Temperatura Minima: </p>
+            </div>
+    
+            <div class="caja-clima">
+                <div class="caja-clima1">
+                    <h4>Temperatura</h4>
+                    <div>
+                        <i class="fa-solid fa-temperature-half"></i>
+                    </div>
+                </div>
+                <p class="p-clima" id="temp_max" class="info">Temperatura Maxima: </p>
+            </div>
+    
+            <div class="caja-clima">
+                <div class="caja-clima1">
+                    <h4>Temperatura</h4>
+                    <div>
+                        <i class="fa-solid fa-temperature-half"></i>
+                    </div>
+                </div>
+                <p class="p-clima" id="humedad" class="info">Humedad: </p>
+            </div>
+    
+            <div class="caja-clima">
+                <div class="caja-clima1">
+                    <h4>Temperatura</h4>
+                    <div>
+                        <i class="fa-solid fa-temperature-half"></i>
+                    </div>
+                </div>
+                <p class="p-clima" id="vientos" class="info">Vientos: </p>
+            </div>
+    
+            <div class="caja-clima">
+                <div class="caja-clima1">
+                    <h4>Temperatura</h4>
+                    <div>
+                        <i class="fa-solid fa-temperature-half"></i>
+                    </div>
+                </div>
+                <p class="p-clima" id="sen_termica" class="info">Sensacion Termica: </p>
+            </div>
+    
+            <div class="caja-clima">
+                <div class="caja-clima1">
+                    <h4>Temperatura</h4>
+                    <div>
+                        <i class="fa-solid fa-temperature-half"></i>
+                    </div>
+                </div>
+                <p class="p-clima" id="nubosidad" class="info">Nubosidad: </p>
+            </div>
         </div>
     </div>
     

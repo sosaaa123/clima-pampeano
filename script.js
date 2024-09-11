@@ -1,6 +1,6 @@
 APIkey = "f7ea644e33a3f455ef668f4ce1d4418b"
 
-//Hacr funcion de climas
+//Hacer funcion de climas
 
 
 const fetchData = position =>{
@@ -10,6 +10,7 @@ const fetchData = position =>{
         .then(data => {
 
             document.getElementById('ciudad').innerText = 'Clima en ' + data['name'] + ', ' + data['sys']['country'];
+
             document.getElementById('descripcion').innerText += " " + (data['weather'][0]['description'])
             document.getElementById('temperatura').innerText += " " + (data['main']['temp'] - 273).toFixed(2) + '°C'
             document.getElementById('temp_min').innerText +=  " " + (data['main']['temp_min'] - 273).toFixed(2) + '°C'
@@ -17,8 +18,8 @@ const fetchData = position =>{
             document.getElementById('humedad').innerText += " " + (data['main']['humidity']) + "%"
             document.getElementById('vientos').innerText += " " + ((data['wind']['speed'])*3.6).toFixed() + "K/H"
             document.getElementById('sen_termica').innerText += " " + (data['main']['feels_like']- 273).toFixed(2) + '°C'
-            document.getElementById('presion_atmos').innerText += " " + (data['main']['pressure']) + " hPa"
             document.getElementById('nubosidad').innerText += " " + (data['clouds']['all']) + '%'
+
             
             
 })
