@@ -2,6 +2,7 @@ body{
     background-color:#75aadb;
     margin: 15%;
     margin-top: 1%;
+    margin-bottom: 2%;
     padding: 0%;
 
     font-family: "Roboto", sans-serif;
@@ -13,7 +14,7 @@ body{
 
 .header{
     display: flex;
-    background-color: white;
+    background-color: 	#ffffff;
     align-items: center;
     justify-content: center;
     
@@ -35,7 +36,7 @@ body{
 
 
 section{
-    background-color: white;
+    background-color: 	#ffffff;
 }
 
 h1{
@@ -56,7 +57,7 @@ h3{
 }
 .container{
     padding: 2rem;
-    background-color: white;
+    background-color: 	#ffffff;
     display: flex;
     align-items: center;
     gap: 1%;
@@ -72,25 +73,27 @@ h3{
     height: 3rem;
     width: 90%;
     border: none;
-    
-}
-
-
-.container input {
     background: #ccc;
+    transition: 0.5s;
+    padding-left: 1%;
 }
+
+
+
 
 .container input:focus{
     outline: none;
     border: none;
-    padding-left: 1%;
+    padding-left: 2%;
     padding-right: 1%;
+    transition: 0.5s;
 }
+
 
 .container button{
     height: 3rem;
     width: 10%;  
-    background-color: white;
+    background-color: 	#ffffff;
     border: none; 
 }
 
@@ -100,13 +103,13 @@ h3{
 }
 
 .container button:hover i{
-    color: white;
+    color: 	#ffffff;
     font-size: 2rem;
     transition: 1s;
 }
 
 .container button i{
-    color: #75aadb;
+    color: #ccc;
     font-size: 2rem;
 }
 
@@ -117,13 +120,13 @@ hr{
 .contenido{
     
     padding: 1%;
-    background-color: white;
+    background-color: 	#ffffff;
     
 }
 
 footer{
     text-align: center;
-    background-color: white;
+    background-color: 	#ffffff;
     margin-top: 1%;
     padding: 1rem;    
 }
@@ -144,7 +147,7 @@ footer{
     flex-direction: row;
     align-items: center;
     gap: 3%;
-    background-color: #b3b6b7;
+    background-color: #ccc;
     padding: 1%;
 }
 
@@ -152,15 +155,21 @@ footer{
 
 .caja-clima1 h4{
     font-size: 1rem;
-    margin: 0%;
+    font-weight: normal;
+    margin: 1%;
+    
 }
 
 .caja-clima div i{
     font-size: 1rem;
+
 }
 
 .caja-clima p{
-    padding: 1%;
+    padding: 2%;
+    font-size: large;
+    
+    
 }
 
 .grid-contenido{

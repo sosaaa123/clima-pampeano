@@ -8,7 +8,6 @@ const fetchData = position =>{
     fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${APIkey}&lang=${'es'}`)
         .then(response => response.json())
         .then(data => {
-
             document.getElementById('ciudad').innerText = 'Clima en ' + data['name'] + ', ' + data['sys']['country'];
 
             document.getElementById('descripcion').innerText += " " + (data['weather'][0]['description'])
